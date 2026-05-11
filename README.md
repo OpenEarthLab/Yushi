@@ -4,7 +4,7 @@
 
 ## 🚀 Getting Started
 
-### Construct Environment 
+### 1. Construct Environment 
 
 ```bash
 git clone https://github.com/OpenEarthLab/Yushi
@@ -13,7 +13,7 @@ conda create -n yushi python=3.10
 conda activate yushi 
 ```
 
-### Build Module
+### 2. Build Auxiliary Module
 ```
 cd Pytorch-Correlation-extension
 pip install -e .
@@ -27,7 +27,7 @@ pip install -e .
 ### Download Checkpoint and Examples
 - Download the [checkpoint](https://drive.google.com/file/d/1pbiMmdxPWUfuwTClZSr8nTWiaAVx2k3f/view?usp=drive_link) and [examples](https://drive.google.com/drive/folders/1cy2Si3MUma5he9F36n1f8O6IX7jsZwS5?usp=drive_link) from Google Drive.
 
-### Inference
+### Conduct Inference
 ```
 CUDA_VISIBLE_DEVICES=0 python inference.py
 ```
