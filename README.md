@@ -13,7 +13,7 @@ conda create -n yushi python=3.10
 conda activate yushi 
 ```
 
-### 2. Build Auxiliary Module
+### 2. Build Auxiliary Modules
 ```
 cd Pytorch-Correlation-extension
 pip install -e .
@@ -24,10 +24,10 @@ cd Oriented1D/models/dwoconv1d_specialized
 pip install -e .
 ```
 
-### Download Checkpoint and Examples
+### 3. Download Checkpoint and Examples
 - Download the [checkpoint](https://drive.google.com/file/d/1pbiMmdxPWUfuwTClZSr8nTWiaAVx2k3f/view?usp=drive_link) and [examples](https://drive.google.com/drive/folders/1cy2Si3MUma5he9F36n1f8O6IX7jsZwS5?usp=drive_link) from Google Drive.
 
-### Conduct Inference
+### 4. Conduct Inference
 ```
 CUDA_VISIBLE_DEVICES=0 python inference.py
 ```
