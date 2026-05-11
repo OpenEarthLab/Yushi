@@ -1,7 +1,6 @@
 # YuShi: Physically-informed volumetric structure modeling for single-radar nowcasting
 **This repository contains the official implementation of Yushi framework.**
 
----------------------------------------------------------------
 
 ## 🚀 Getting Started
 
@@ -34,9 +33,9 @@ CUDA_VISIBLE_DEVICES=0 python inference.py
 ```
 
 ---------------------------------------------------------------
-# Acknowledgements 
+## Acknowledgements 
 We would like to express our gratitude to the following open-source projects, whose high-quality code and research served as a foundation for this work: [Pytorch-Correlation-extension](https://github.com/ClementPinard/Pytorch-Correlation-extension), [Oriented1D](https://github.com/princeton-vl/Oriented1D), [NowcastNet](https://codeocean.com/explore/b36ff208-5bac-4473-a72e-9a685e1e76ab) and [Pytorch-UNet](https://github.com/milesial/Pytorch-UNet).
 
-# Contact Information
+## Contact Information
 Please feel free to contact zpq0316@163.com if you have questions.
 
