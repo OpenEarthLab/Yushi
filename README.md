@@ -25,9 +25,9 @@ pip install -e .
 ```
 
 ### 3. Download Checkpoint and Examples
-```
+
 Download the [checkpoint](https://drive.google.com/file/d/1pbiMmdxPWUfuwTClZSr8nTWiaAVx2k3f/view?usp=drive_link) and [examples](https://drive.google.com/drive/folders/1cy2Si3MUma5he9F36n1f8O6IX7jsZwS5?usp=drive_link) from Google Drive.
-```
+
 
 ### 4. Conduct Inference
 ```
